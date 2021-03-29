@@ -103,6 +103,7 @@ def _extract_message(update):
     key = _find_first_key(update, ['message',
                                    'edited_message',
                                    'channel_post',
+                                   'my_chat_member',
                                    'edited_channel_post',
                                    'callback_query',
                                    'inline_query',
